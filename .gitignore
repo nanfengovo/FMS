@@ -1,0 +1,3 @@
+# Local industrial simulation database. It is hundreds of megabytes and exceeds GitHub's file limit.
+backend/src/Fms.HttpApi.Host/fms_industrial.db
+backend/src/Fms.HttpApi.Host/fms_industrial.db-*

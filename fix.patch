@@ -1,0 +1,20 @@
+--- frontend/src/views/fms/index.vue
++++ frontend/src/views/fms/index.vue
+@@ -213,11 +213,16 @@
+ }
+ 
+ async function spawnVehicle() {
+-  await simStore.spawnVehicle();
++  const id = `AGV-${Math.floor(Math.random() * 1000)}`;
++  await simStore.spawnVehicle({ id });
+ }
+ 
+ async function generateOrder() {
+   // Auto-generate random order for testing
++  if (!simStore.createOrder) {
++    console.warn("createOrder not implemented in store");
++    return;
++  }
+   const allNodes = Array.from(mapStore.currentGraph?.nodes.values() || []);
+   if (allNodes.length === 0) return;
+   const randomNode = allNodes[Math.floor(Math.random() * allNodes.length)];

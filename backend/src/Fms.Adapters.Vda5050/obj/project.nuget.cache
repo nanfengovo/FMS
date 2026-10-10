@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "QTcjUqByfIo=",
+  "success": true,
+  "projectFilePath": "/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Vda5050/Fms.Adapters.Vda5050.csproj",
+  "expectedPackageFiles": [
+    "/Users/feng/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.12/microsoft.extensions.dependencyinjection.abstractions.10.0.12.nupkg.sha512",
+    "/Users/feng/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.12/microsoft.extensions.logging.abstractions.10.0.12.nupkg.sha512",
+    "/Users/feng/.nuget/packages/mqttnet/5.2.0.1603/mqttnet.5.2.0.1603.nupkg.sha512"
+  ],
+  "logs": []
+}

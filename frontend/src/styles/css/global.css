@@ -1,0 +1,25 @@
+@import './reset.css';
+@import './nprogress.css';
+@import './transition.css';
+
+html,
+body,
+#app {
+  height: 100%;
+  text-autospace: normal;
+}
+
+html {
+  overflow-x: hidden;
+  color: rgb(var(--base-text-color));
+}
+
+.n-button:not(.n-button--ghost):not(.n-button--quaternary):not(.n-button--text) {
+  background-color: var(--n-color);
+}
+.n-button:not(.n-button--ghost):not(.n-button--quaternary):not(.n-button--text):hover {
+  background-color: var(--n-color-hover);
+}
+.n-button:not(.n-button--ghost):not(.n-button--quaternary):not(.n-button--text):active {
+  background-color: var(--n-color-pressed);
+}

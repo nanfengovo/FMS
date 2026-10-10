@@ -1,0 +1,27 @@
+--- frontend/src/views/fms/index.vue
++++ frontend/src/views/fms/index.vue
+@@ -166,13 +166,13 @@
+ 
+ const canvasRef = ref<any>(null);
+-let originalDarkMode = false;
++let originalThemeScheme = 'auto';
+ let originalFullContent = false;
+ 
+ onMounted(async () => {
+   // Enter Immersive Mode
+   originalFullContent = appStore.fullContent;
+-  originalDarkMode = themeStore.darkMode;
++  originalThemeScheme = themeStore.themeScheme;
+   
+   appStore.fullContent = true;
+-  themeStore.setThemeScheme("dark");
++  themeStore.setThemeScheme('dark');
+ 
+   await simStore.init();
+@@ -183,5 +183,5 @@
+ onUnmounted(() => {
+   // Restore layout when leaving FMS view
+   appStore.fullContent = originalFullContent;
+-  themeStore.setThemeScheme(originalDarkMode);
++  themeStore.setThemeScheme(originalThemeScheme as any);
+ });

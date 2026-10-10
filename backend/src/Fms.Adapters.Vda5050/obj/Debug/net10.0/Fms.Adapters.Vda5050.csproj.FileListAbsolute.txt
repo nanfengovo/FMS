@@ -1,0 +1,17 @@
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Vda5050/bin/Debug/net10.0/Fms.Adapters.Vda5050.deps.json
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Vda5050/bin/Debug/net10.0/Fms.Adapters.Vda5050.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Vda5050/bin/Debug/net10.0/Fms.Adapters.Vda5050.pdb
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Vda5050/bin/Debug/net10.0/Fms.Domain.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Vda5050/bin/Debug/net10.0/Fms.Domain.Shared.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Vda5050/bin/Debug/net10.0/Fms.Domain.pdb
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Vda5050/bin/Debug/net10.0/Fms.Domain.Shared.pdb
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Vda5050/obj/Debug/net10.0/Fms.Adapters.Vda5050.csproj.AssemblyReference.cache
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Vda5050/obj/Debug/net10.0/Fms.Adapters.Vda5050.GeneratedMSBuildEditorConfig.editorconfig
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Vda5050/obj/Debug/net10.0/Fms.Adapters.Vda5050.AssemblyInfoInputs.cache
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Vda5050/obj/Debug/net10.0/Fms.Adapters.Vda5050.AssemblyInfo.cs
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Vda5050/obj/Debug/net10.0/Fms.Adapters.Vda5050.csproj.CoreCompileInputs.cache
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Vda5050/obj/Debug/net10.0/Fms.Adap.CE48BA8E.Up2Date
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Vda5050/obj/Debug/net10.0/Fms.Adapters.Vda5050.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Vda5050/obj/Debug/net10.0/refint/Fms.Adapters.Vda5050.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Vda5050/obj/Debug/net10.0/Fms.Adapters.Vda5050.pdb
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Vda5050/obj/Debug/net10.0/ref/Fms.Adapters.Vda5050.dll

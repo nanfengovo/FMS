@@ -1,0 +1,204 @@
+从 /Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.HttpApi.Host/Properties/launchSettings.json 使用启动设置...
+正在生成...
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      PRAGMA journal_mode=WAL; PRAGMA busy_timeout=5000; PRAGMA synchronous=NORMAL;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      CREATE TABLE IF NOT EXISTS Fms_WorkflowTemplates (Id TEXT PRIMARY KEY, Name TEXT, Description TEXT, IsBuiltIn INTEGER DEFAULT 0, Version INTEGER DEFAULT 1, VersionTag TEXT DEFAULT 'v1.0.0', ChangeLog TEXT DEFAULT '初始创建', StepsJson TEXT, CreatedAt TEXT, UpdatedAt TEXT);
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      CREATE TABLE IF NOT EXISTS Fms_WorkflowTemplateHistories (Id TEXT PRIMARY KEY, TemplateId TEXT, Version INTEGER, VersionTag TEXT, ChangeLog TEXT, StepsJson TEXT, CreatedAt TEXT);
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      CREATE TABLE IF NOT EXISTS Fms_MapPointCloud (Id TEXT PRIMARY KEY, TotalCount INTEGER DEFAULT 0, Data BLOB, UpdatedAt TEXT);
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      CREATE TABLE IF NOT EXISTS Fms_RefreshTokens (Token TEXT PRIMARY KEY, UserId TEXT, Username TEXT, RolesJson TEXT, ExpiryUtc TEXT, CreatedAt TEXT);
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      ALTER TABLE Fms_MapNodes ADD COLUMN AllowRevolve INTEGER DEFAULT 1;
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      ALTER TABLE Fms_MapNodes ADD COLUMN SpinDirection TEXT DEFAULT 'both';
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      ALTER TABLE Fms_MapNodes ADD COLUMN ClassName TEXT DEFAULT 'LandMark';
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      ALTER TABLE Fms_MapPaths ADD COLUMN Direction TEXT DEFAULT 'forward';
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      ALTER TABLE Fms_MapPaths ADD COLUMN RoadWidth REAL DEFAULT 1.2;
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      ALTER TABLE Fms_MapPaths ADD COLUMN CurveType TEXT DEFAULT 'straight_line';
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      ALTER TABLE Fms_Orders ADD COLUMN OrderStepsJson TEXT DEFAULT '[]';
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      ALTER TABLE Fms_Orders ADD COLUMN CurrentStepIndex INTEGER DEFAULT 0;
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      ALTER TABLE Fms_Orders ADD COLUMN BulkTaskType TEXT DEFAULT 'task';
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      ALTER TABLE Fms_WorkflowTemplates ADD COLUMN VersionTag TEXT DEFAULT 'v1.0.0';
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      ALTER TABLE Fms_WorkflowTemplates ADD COLUMN ChangeLog TEXT DEFAULT '初始创建';
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      ALTER TABLE Fms_MapPointCloud ADD COLUMN RawTotalCount INTEGER DEFAULT 0;
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      ALTER TABLE Fms_MapPointCloud ADD COLUMN DownsampleFactor INTEGER DEFAULT 25;
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      ALTER TABLE Fms_Vehicles ADD COLUMN IsEnabled INTEGER DEFAULT 1;
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      ALTER TABLE Fms_Vehicles ADD COLUMN Length REAL DEFAULT 1.2;
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      ALTER TABLE Fms_Vehicles ADD COLUMN Width REAL DEFAULT 0.8;
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      ALTER TABLE Fms_Vehicles ADD COLUMN DriveType TEXT DEFAULT 'Differential';
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      ALTER TABLE Fms_Vehicles ADD COLUMN MapId TEXT;
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      ALTER TABLE Fms_Vehicles ADD COLUMN MapName TEXT;
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      ALTER TABLE Fms_Vehicles ADD COLUMN HomeNodeId TEXT;
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      ALTER TABLE Fms_Vehicles ADD COLUMN CurrentNodeId TEXT;
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      ALTER TABLE Fms_Vehicles ADD COLUMN LastHeartbeatUtc TEXT;
+info: Fms.Application.Rcs.RcsConfigurationService[0]
+      Loaded custom.set: Custom=127.0.0.1:9999, URLs count=6
+info: Fms.Application.Rcs.RcsConfigurationService[0]
+      Loaded kcfms.xml: Push=127.0.0.1:9999, Enabled=True, Url=/api/v1/xinsong/report_robot_status
+info: Fms.Application.Rcs.RcsConfigurationService[0]
+      Loaded control.tag: 11 tags enabled.
+[SimulatedModbusServer] Start error on port 1502: Address already in use
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (143ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='Text', CommandTimeout='15']
+      SELECT "f"."Id", "f"."Action", "f"."Category", "f"."ContextJson", "f"."Outcome", "f"."Reason", "f"."SubjectId", "f"."TimestampUtc"
+      FROM "Fms_DecisionLogs" AS "f"
+      ORDER BY "f"."TimestampUtc" DESC
+      LIMIT @p
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[@p='?' (DbType = Int32)], CommandType='Text', CommandTimeout='15']
+      SELECT "f1"."Id", "f1"."ArmAction", "f1"."AssignedVehicleId", "f1"."BindVehicleId", "f1"."BulkTaskType", "f1"."CargoSerial", "f1"."CompletedAt", "f1"."CreatedAt", "f1"."CurrentStepIndex", "f1"."FailReason", "f1"."FinishingAction", "f1"."Mark", "f1"."MileageKm", "f1"."MovementTimeSec", "f1"."OptionCode", "f1"."OrderSerial", "f1"."OrderStepsJson", "f1"."PassPoint", "f1"."PassPointToGoal", "f1"."Priority", "f1"."Rfid", "f1"."RobotType", "f1"."SourceNodeId", "f1"."StartedAt", "f1"."Status", "f1"."Storage", "f1"."SubNo", "f1"."Target", "f1"."TargetNodeId", "f1"."TaskCodeA", "f1"."TaskCodeB", "f1"."TaskType", "f1"."WaitTimeSec", "f0"."Id", "f0"."FinishedAt", "f0"."Name", "f0"."OrderId", "f0"."Parameter", "f0"."Status", "f0"."StepNo", "f0"."Type"
+      FROM (
+          SELECT "f"."Id", "f"."ArmAction", "f"."AssignedVehicleId", "f"."BindVehicleId", "f"."BulkTaskType", "f"."CargoSerial", "f"."CompletedAt", "f"."CreatedAt", "f"."CurrentStepIndex", "f"."FailReason", "f"."FinishingAction", "f"."Mark", "f"."MileageKm", "f"."MovementTimeSec", "f"."OptionCode", "f"."OrderSerial", "f"."OrderStepsJson", "f"."PassPoint", "f"."PassPointToGoal", "f"."Priority", "f"."Rfid", "f"."RobotType", "f"."SourceNodeId", "f"."StartedAt", "f"."Status", "f"."Storage", "f"."SubNo", "f"."Target", "f"."TargetNodeId", "f"."TaskCodeA", "f"."TaskCodeB", "f"."TaskType", "f"."WaitTimeSec"
+          FROM "Fms_Orders" AS "f"
+          WHERE "f"."Status" IN ('Done', 'Failed', 'Cancelled')
+          ORDER BY "f"."CreatedAt" DESC
+          LIMIT @p
+      ) AS "f1"
+      LEFT JOIN "Fms_TaskSteps" AS "f0" ON "f1"."Id" = "f0"."OrderId"
+      ORDER BY "f1"."CreatedAt" DESC, "f1"."Id"
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      SELECT "f"."Id", "f"."AllowInbound", "f"."AllowOutbound", "f"."Capacity", "f"."Name", "f"."PolygonJson", "f"."Type", "f"."UpdatedAt"
+      FROM "Fms_StorageZones" AS "f"
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      SELECT "f"."Id", "f"."BindNodeId", "f"."LockReason", "f"."Name", "f"."OccupiedCarrierId", "f"."ReservedOrderId", "f"."ReservedVehicleId", "f"."Status", "f"."UpdatedAt", "f"."ZoneId", "f"."ZoneType"
+      FROM "Fms_StorageSlots" AS "f"
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='15']
+      SELECT "f"."Id", "f"."AllowBackward", "f"."AllowedVehicleTypesJson", "f"."ClosureReason", "f"."DefaultDirection", "f"."IsClosed", "f"."MemberPathIdsJson", "f"."Name", "f"."SpeedLimit"
+      FROM "Fms_RouteLines" AS "f"
+info: Fms.HttpApi.Host.Workers.EngineTickWorker[0]
+      Fms Dispatch Engine 100ms Tick Worker started.
+info: Fms.HttpApi.Host.Workers.EnginePersistenceWorker[0]
+      Fms Engine SQLite Persistence Worker started.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 13), @p1='?' (Size = 17), @p2='?', @p3='?' (Size = 7), @p4='?' (Size = 36), @p5='?' (Size = 14), @p6='?' (DbType = DateTime)], CommandType='Text', CommandTimeout='15']
+      INSERT INTO "Fms_DecisionLogs" ("Action", "Category", "ContextJson", "Outcome", "Reason", "SubjectId", "TimestampUtc")
+      VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+      RETURNING "Id";
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 13), @p1='?' (Size = 17), @p2='?', @p3='?' (Size = 7), @p4='?' (Size = 40), @p5='?' (Size = 14), @p6='?' (DbType = DateTime)], CommandType='Text', CommandTimeout='15']
+      INSERT INTO "Fms_DecisionLogs" ("Action", "Category", "ContextJson", "Outcome", "Reason", "SubjectId", "TimestampUtc")
+      VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+      RETURNING "Id";
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (0ms) [Parameters=[@order_Id='?' (Size = 32), @order_OrderSerial='?' (Size = 8)], CommandType='Text', CommandTimeout='15']
+      SELECT "f1"."Id", "f1"."ArmAction", "f1"."AssignedVehicleId", "f1"."BindVehicleId", "f1"."BulkTaskType", "f1"."CargoSerial", "f1"."CompletedAt", "f1"."CreatedAt", "f1"."CurrentStepIndex", "f1"."FailReason", "f1"."FinishingAction", "f1"."Mark", "f1"."MileageKm", "f1"."MovementTimeSec", "f1"."OptionCode", "f1"."OrderSerial", "f1"."OrderStepsJson", "f1"."PassPoint", "f1"."PassPointToGoal", "f1"."Priority", "f1"."Rfid", "f1"."RobotType", "f1"."SourceNodeId", "f1"."StartedAt", "f1"."Status", "f1"."Storage", "f1"."SubNo", "f1"."Target", "f1"."TargetNodeId", "f1"."TaskCodeA", "f1"."TaskCodeB", "f1"."TaskType", "f1"."WaitTimeSec", "f0"."Id", "f0"."FinishedAt", "f0"."Name", "f0"."OrderId", "f0"."Parameter", "f0"."Status", "f0"."StepNo", "f0"."Type"
+      FROM (
+          SELECT "f"."Id", "f"."ArmAction", "f"."AssignedVehicleId", "f"."BindVehicleId", "f"."BulkTaskType", "f"."CargoSerial", "f"."CompletedAt", "f"."CreatedAt", "f"."CurrentStepIndex", "f"."FailReason", "f"."FinishingAction", "f"."Mark", "f"."MileageKm", "f"."MovementTimeSec", "f"."OptionCode", "f"."OrderSerial", "f"."OrderStepsJson", "f"."PassPoint", "f"."PassPointToGoal", "f"."Priority", "f"."Rfid", "f"."RobotType", "f"."SourceNodeId", "f"."StartedAt", "f"."Status", "f"."Storage", "f"."SubNo", "f"."Target", "f"."TargetNodeId", "f"."TaskCodeA", "f"."TaskCodeB", "f"."TaskType", "f"."WaitTimeSec"
+          FROM "Fms_Orders" AS "f"
+          WHERE "f"."Id" = @order_Id OR "f"."OrderSerial" = @order_OrderSerial
+          LIMIT 1
+      ) AS "f1"
+      LEFT JOIN "Fms_TaskSteps" AS "f0" ON "f1"."Id" = "f0"."OrderId"
+      ORDER BY "f1"."Id"
+fail: Microsoft.Extensions.Hosting.Internal.Host[11]
+      Hosting failed to start
+      System.IO.IOException: Failed to bind to address http://0.0.0.0:9999: address already in use.
+       ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+       ---> System.Net.Sockets.SocketException (48): Address already in use
+         at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+         at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+         at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+         at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+         at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+         --- End of inner exception stack trace ---
+         at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+         at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+         at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+         --- End of inner exception stack trace ---
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+         at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+         at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+         at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+         at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+         at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+         at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+         at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+Unhandled exception. System.IO.IOException: Failed to bind to address http://0.0.0.0:9999: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in /Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.HttpApi.Host/Program.cs:line 149
+   at Program.<Main>(String[] args)

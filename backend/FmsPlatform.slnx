@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Fms.Adapters.Kecong/Fms.Adapters.Kecong.csproj" />
+    <Project Path="src/Fms.Adapters.Simulated/Fms.Adapters.Simulated.csproj" />
+    <Project Path="src/Fms.Adapters.Vda5050/Fms.Adapters.Vda5050.csproj" />
+    <Project Path="src/Fms.Algorithm/Fms.Algorithm.csproj" />
+    <Project Path="src/Fms.Application.Contracts/Fms.Application.Contracts.csproj" />
+    <Project Path="src/Fms.Application/Fms.Application.csproj" />
+    <Project Path="src/Fms.Domain.Shared/Fms.Domain.Shared.csproj" />
+    <Project Path="src/Fms.Domain/Fms.Domain.csproj" />
+    <Project Path="src/Fms.Engine/Fms.Engine.csproj" />
+    <Project Path="src/Fms.EntityFrameworkCore/Fms.EntityFrameworkCore.csproj" />
+    <Project Path="src/Fms.HttpApi.Host/Fms.HttpApi.Host.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/Fms.Tests/Fms.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Fms.Domain.Shared/1.0.0": {
+        "runtime": {
+          "Fms.Domain.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Fms.Domain.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

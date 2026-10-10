@@ -1,0 +1,61 @@
+id: "SCN-5AMR-THROUGHPUT-01"
+name: "Cleanroom 5-AMR Matrix High-Throughput Dispatch Benchmark"
+durationSec: 60.0
+timeScale: 10.0
+vehicles:
+  - id: "AMR-101"
+    model: "LATENT"
+    initNodeId: "STK-01"
+    maxSpeed: 1.5
+  - id: "AMR-102"
+    model: "LATENT"
+    initNodeId: "STK-02"
+    maxSpeed: 1.5
+  - id: "AMR-103"
+    model: "LATENT"
+    initNodeId: "WB-01"
+    maxSpeed: 1.5
+  - id: "AMR-104"
+    model: "LATENT"
+    initNodeId: "WB-02"
+    maxSpeed: 1.5
+  - id: "AMR-105"
+    model: "LATENT"
+    initNodeId: "CHARGE-01"
+    maxSpeed: 1.5
+events:
+  - atSec: 1.0
+    action: "DispatchTask"
+    orderId: "ORD-001"
+    fromNodeId: "STK-01"
+    toNodeId: "WB-01"
+    priority: 80
+    targetVehicleId: "AMR-101"
+  - atSec: 2.0
+    action: "DispatchTask"
+    orderId: "ORD-002"
+    fromNodeId: "STK-02"
+    toNodeId: "WB-02"
+    priority: 75
+    targetVehicleId: "AMR-102"
+  - atSec: 3.0
+    action: "DispatchTask"
+    orderId: "ORD-003"
+    fromNodeId: "WB-01"
+    toNodeId: "STK-02"
+    priority: 70
+    targetVehicleId: "AMR-103"
+  - atSec: 4.0
+    action: "DispatchTask"
+    orderId: "ORD-004"
+    fromNodeId: "WB-02"
+    toNodeId: "STK-01"
+    priority: 65
+    targetVehicleId: "AMR-104"
+  - atSec: 5.0
+    action: "DispatchTask"
+    orderId: "ORD-005"
+    fromNodeId: "CHARGE-01"
+    toNodeId: "WB-01"
+    priority: 50
+    targetVehicleId: "AMR-105"

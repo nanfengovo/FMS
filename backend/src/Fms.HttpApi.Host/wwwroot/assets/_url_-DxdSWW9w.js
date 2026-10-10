@@ -1,0 +1,1 @@
+import{G as e,O as t,S as n,y as r}from"./vue.runtime.esm-bundler-7zA2Yezi.js";var i={class:`h-full`},a=[`src`],o=t({name:`iframe-page`,__name:`[url]`,props:{url:{}},setup(t){return(o,s)=>(e(),n(`div`,i,[r(`iframe`,{id:`iframePage`,class:`size-full`,src:t.url},null,8,a)]))}});export{o as default};

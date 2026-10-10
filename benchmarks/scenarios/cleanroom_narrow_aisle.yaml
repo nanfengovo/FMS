@@ -1,0 +1,28 @@
+id: "SCN-NARROW-AISLE-01"
+name: "Cleanroom Narrow Aisle Head-On Deadlock Stress Test"
+durationSec: 30.0
+timeScale: 5.0
+vehicles:
+  - id: "AMR-101"
+    model: "LATENT"
+    initNodeId: "STK-01"
+    maxSpeed: 1.5
+  - id: "AMR-102"
+    model: "LATENT"
+    initNodeId: "STK-02"
+    maxSpeed: 1.5
+events:
+  - atSec: 1.0
+    action: "DispatchTask"
+    orderId: "ORD-EXPEDITE-WAFER"
+    fromNodeId: "STK-01"
+    toNodeId: "STK-02"
+    priority: 95
+    targetVehicleId: "AMR-101"
+  - atSec: 1.5
+    action: "DispatchTask"
+    orderId: "ORD-EMPTY-CARRIER"
+    fromNodeId: "STK-02"
+    toNodeId: "STK-01"
+    priority: 30
+    targetVehicleId: "AMR-102"

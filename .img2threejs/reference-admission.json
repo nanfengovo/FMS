@@ -1,0 +1,16 @@
+{
+  "admitted": false,
+  "reasons": [
+    "foreground coverage 0.999 > 0.97 (no background to segment against — silhouette not isolable)"
+  ],
+  "provenance": {
+    "viewpoint": "isometric",
+    "sourcePath": "/Users/feng/.cursor/projects/Users-feng-Documents-Code-AGV-AMR-FmsPlatform/assets/image-7b8bfe7a-b26d-416e-92e2-f9673a5d8755.jpg",
+    "width": 1024,
+    "height": 682,
+    "foregroundCoverage": 0.9991,
+    "largestComponentFraction": 1.0,
+    "pHash": 13139742350484803786,
+    "duplicateOfHash": null
+  }
+}

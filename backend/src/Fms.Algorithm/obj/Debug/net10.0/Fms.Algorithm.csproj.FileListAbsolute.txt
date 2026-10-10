@@ -1,0 +1,17 @@
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Algorithm/bin/Debug/net10.0/Fms.Algorithm.deps.json
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Algorithm/bin/Debug/net10.0/Fms.Algorithm.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Algorithm/bin/Debug/net10.0/Fms.Algorithm.pdb
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Algorithm/bin/Debug/net10.0/Fms.Domain.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Algorithm/bin/Debug/net10.0/Fms.Domain.Shared.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Algorithm/bin/Debug/net10.0/Fms.Domain.pdb
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Algorithm/bin/Debug/net10.0/Fms.Domain.Shared.pdb
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Algorithm/obj/Debug/net10.0/Fms.Algorithm.csproj.AssemblyReference.cache
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Algorithm/obj/Debug/net10.0/Fms.Algorithm.GeneratedMSBuildEditorConfig.editorconfig
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Algorithm/obj/Debug/net10.0/Fms.Algorithm.AssemblyInfoInputs.cache
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Algorithm/obj/Debug/net10.0/Fms.Algorithm.AssemblyInfo.cs
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Algorithm/obj/Debug/net10.0/Fms.Algorithm.csproj.CoreCompileInputs.cache
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Algorithm/obj/Debug/net10.0/Fms.Algo.4C9A603F.Up2Date
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Algorithm/obj/Debug/net10.0/Fms.Algorithm.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Algorithm/obj/Debug/net10.0/refint/Fms.Algorithm.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Algorithm/obj/Debug/net10.0/Fms.Algorithm.pdb
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Algorithm/obj/Debug/net10.0/ref/Fms.Algorithm.dll

@@ -1,0 +1,84 @@
+declare module 'three' {
+  export const Scene: any;
+  export const Color: any;
+  export const Fog: any;
+  export const PerspectiveCamera: any;
+  export const WebGLRenderer: any;
+  export const AmbientLight: any;
+  export const HemisphereLight: any;
+  export const DirectionalLight: any;
+  export const GridHelper: any;
+  export const Group: any;
+  export const Mesh: any;
+  export const MeshStandardMaterial: any;
+  export const MeshBasicMaterial: any;
+  export const LineBasicMaterial: any;
+  export const LineSegments: any;
+  export const BufferGeometry: any;
+  export const Float32BufferAttribute: any;
+  export const BufferAttribute: any;
+  export const InstancedMesh: any;
+  export const Points: any;
+  export const PointsMaterial: any;
+  export const CylinderGeometry: any;
+  export const BoxGeometry: any;
+  export const ConeGeometry: any;
+  export const CircleGeometry: any;
+  export const SphereGeometry: any;
+  export const OctahedronGeometry: any;
+  export const PlaneGeometry: any;
+  export const RingGeometry: any;
+  export const EdgesGeometry: any;
+  export const Shape: any;
+  export const ShapeGeometry: any;
+  export const TextureLoader: any;
+  export const CanvasTexture: any;
+  export const Sprite: any;
+  export const SpriteMaterial: any;
+  export const LinearFilter: any;
+  export const SRGBColorSpace: any;
+  export const NoToneMapping: any;
+  export const DoubleSide: any;
+  export const Vector2: any;
+  export const Vector3: any;
+  export const Frustum: any;
+  export const Matrix4: any;
+  export const Raycaster: any;
+  export const Object3D: any;
+  export const MeshPhysicalMaterial: any;
+  export const PointLight: any;
+  export const TubeGeometry: any;
+  export const CatmullRomCurve3: any;
+  export const Clock: any;
+  export const RepeatWrapping: any;
+  export const ACESFilmicToneMapping: any;
+  export const PCFSoftShadowMap: any;
+  export const MOUSE: { ROTATE: number; DOLLY: number; PAN: number };
+  export const MathUtils: { clamp: (value: number, min: number, max: number) => number };
+}
+
+declare module 'three/addons/controls/OrbitControls.js' {
+  export class OrbitControls {
+    constructor(object: any, domElement?: HTMLElement | null);
+    enabled: boolean;
+    enableDamping: boolean;
+    dampingFactor: number;
+    enablePan: boolean;
+    enableRotate: boolean;
+    enableZoom: boolean;
+    screenSpacePanning: boolean;
+    zoomToCursor: boolean;
+    minDistance: number;
+    maxDistance: number;
+    minPolarAngle: number;
+    maxPolarAngle: number;
+    rotateSpeed: number;
+    zoomSpeed: number;
+    panSpeed: number;
+    target: any;
+    mouseButtons: { LEFT: number | null; MIDDLE: number | null; RIGHT: number | null };
+    update(): void;
+    dispose(): void;
+    domElement: HTMLElement;
+  }
+}

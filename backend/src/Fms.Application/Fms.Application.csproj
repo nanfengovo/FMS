@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fms.Domain\Fms.Domain.csproj" />
+    <ProjectReference Include="..\Fms.Application.Contracts\Fms.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Fms.Engine\Fms.Engine.csproj" />
+    <ProjectReference Include="..\Fms.Adapters.Simulated\Fms.Adapters.Simulated.csproj" />
+    <ProjectReference Include="..\Fms.Adapters.Kecong\Fms.Adapters.Kecong.csproj" />
+    <ProjectReference Include="..\Fms.Adapters.Vda5050\Fms.Adapters.Vda5050.csproj" />
+    <ProjectReference Include="..\Fms.EntityFrameworkCore\Fms.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.12" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.12" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

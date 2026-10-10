@@ -1,0 +1,23 @@
+--- frontend/src/store/modules/simulation/index.ts
++++ frontend/src/store/modules/simulation/index.ts
+@@ -141,4 +141,12 @@
+   }
+ 
++  async function createOrder(targetNodeId: string) {
++    await fmsApi.addRcsTask({
++      task_id: `T-${Date.now()}`,
++      task_type: 'MOVE',
++      target: targetNodeId
++    });
++  }
++
+   return {
+     isPaused,
+@@ -160,4 +168,5 @@
+     step,
+     injectFault,
+-    spawnVehicle
++    spawnVehicle,
++    createOrder
+   };
+ });

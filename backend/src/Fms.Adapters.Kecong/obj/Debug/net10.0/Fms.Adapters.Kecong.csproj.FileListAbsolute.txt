@@ -1,0 +1,17 @@
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Kecong/bin/Debug/net10.0/Fms.Adapters.Kecong.deps.json
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Kecong/bin/Debug/net10.0/Fms.Adapters.Kecong.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Kecong/bin/Debug/net10.0/Fms.Adapters.Kecong.pdb
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Kecong/bin/Debug/net10.0/Fms.Domain.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Kecong/bin/Debug/net10.0/Fms.Domain.Shared.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Kecong/bin/Debug/net10.0/Fms.Domain.pdb
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Kecong/bin/Debug/net10.0/Fms.Domain.Shared.pdb
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Kecong/obj/Debug/net10.0/Fms.Adapters.Kecong.csproj.AssemblyReference.cache
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Kecong/obj/Debug/net10.0/Fms.Adapters.Kecong.GeneratedMSBuildEditorConfig.editorconfig
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Kecong/obj/Debug/net10.0/Fms.Adapters.Kecong.AssemblyInfoInputs.cache
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Kecong/obj/Debug/net10.0/Fms.Adapters.Kecong.AssemblyInfo.cs
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Kecong/obj/Debug/net10.0/Fms.Adapters.Kecong.csproj.CoreCompileInputs.cache
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Kecong/obj/Debug/net10.0/Fms.Adap.78B6113C.Up2Date
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Kecong/obj/Debug/net10.0/Fms.Adapters.Kecong.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Kecong/obj/Debug/net10.0/refint/Fms.Adapters.Kecong.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Kecong/obj/Debug/net10.0/Fms.Adapters.Kecong.pdb
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Kecong/obj/Debug/net10.0/ref/Fms.Adapters.Kecong.dll

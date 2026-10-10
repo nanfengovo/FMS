@@ -1,0 +1,17 @@
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.EntityFrameworkCore/bin/Debug/net10.0/Fms.EntityFrameworkCore.deps.json
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.EntityFrameworkCore/bin/Debug/net10.0/Fms.EntityFrameworkCore.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.EntityFrameworkCore/bin/Debug/net10.0/Fms.EntityFrameworkCore.pdb
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.EntityFrameworkCore/bin/Debug/net10.0/Fms.Domain.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.EntityFrameworkCore/bin/Debug/net10.0/Fms.Domain.Shared.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.EntityFrameworkCore/bin/Debug/net10.0/Fms.Domain.pdb
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.EntityFrameworkCore/bin/Debug/net10.0/Fms.Domain.Shared.pdb
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.EntityFrameworkCore/obj/Debug/net10.0/Fms.EntityFrameworkCore.csproj.AssemblyReference.cache
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.EntityFrameworkCore/obj/Debug/net10.0/Fms.EntityFrameworkCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.EntityFrameworkCore/obj/Debug/net10.0/Fms.EntityFrameworkCore.AssemblyInfoInputs.cache
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.EntityFrameworkCore/obj/Debug/net10.0/Fms.EntityFrameworkCore.AssemblyInfo.cs
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.EntityFrameworkCore/obj/Debug/net10.0/Fms.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.EntityFrameworkCore/obj/Debug/net10.0/Fms.Enti.C87C460E.Up2Date
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.EntityFrameworkCore/obj/Debug/net10.0/Fms.EntityFrameworkCore.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.EntityFrameworkCore/obj/Debug/net10.0/refint/Fms.EntityFrameworkCore.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.EntityFrameworkCore/obj/Debug/net10.0/Fms.EntityFrameworkCore.pdb
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.EntityFrameworkCore/obj/Debug/net10.0/ref/Fms.EntityFrameworkCore.dll

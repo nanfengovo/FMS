@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "matlab": {
+      "command": "/Users/feng/.local/bin/matlab-mcp-server",
+      "args": []
+    }
+  }
+}

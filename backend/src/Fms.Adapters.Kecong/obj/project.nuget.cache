@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dXp43OgO52M=",
+  "success": true,
+  "projectFilePath": "/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Kecong/Fms.Adapters.Kecong.csproj",
+  "expectedPackageFiles": [
+    "/Users/feng/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.12/microsoft.extensions.dependencyinjection.abstractions.10.0.12.nupkg.sha512",
+    "/Users/feng/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.12/microsoft.extensions.logging.abstractions.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

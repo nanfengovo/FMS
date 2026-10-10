@@ -1,0 +1,1 @@
+import{K as e,k as t,x as n}from"./vue.runtime.esm-bundler-BULczL5Q.js";import{t as r}from"./exception-base-iFMo8UdJ.js";var i=t({name:`404`,__name:`index`,setup(t){return(t,i)=>{let a=r;return e(),n(a,{type:`404`})}}});export{i as default};

@@ -1,0 +1,3 @@
+<PushService server="127.0.0.1" port="9999" enable="1">
+  <Method name="custom" url="/api/v1/xinsong/report_robot_status" type="POST"/>
+</PushService>

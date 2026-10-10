@@ -1,0 +1,19 @@
+{
+  "name": "AMR Factory Yard",
+  "topologyClass": "compound-repeated-hard-surface",
+  "buildStrategy": "procedural primitives + instanced/shared materials; Group factory createFactoryYardRuntime",
+  "components": [
+    { "id": "floor", "primitive": "plane + generated canvas grout", "material": "matte epoxy" },
+    { "id": "workstation", "primitive": "box stack + cylinder utilities + emissive pane", "repetition": "grid rows" },
+    { "id": "storageRack", "primitive": "box lattice", "repetition": "grid" },
+    { "id": "pathRibbon", "primitive": "tube along CatmullRom loop + cross aisles", "material": "emissive cyan" },
+    { "id": "amr", "primitive": "box chassis, cylinder wheels, box lamp, optional crate", "motion": "follow path u in [0,1]" }
+  ],
+  "lighting": {
+    "background": "#070e18",
+    "hemisphere": ["#8ec8e8", "#1a2430"],
+    "key": "directional cool white with soft shadow",
+    "pathFill": "two cyan point lights"
+  },
+  "performanceBudget": { "targetTriangles": "standard", "note": "login-page background, shared geom/materials" }
+}

@@ -1,0 +1,15 @@
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Domain/bin/Debug/net10.0/Fms.Domain.deps.json
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Domain/bin/Debug/net10.0/Fms.Domain.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Domain/bin/Debug/net10.0/Fms.Domain.pdb
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Domain/bin/Debug/net10.0/Fms.Domain.Shared.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Domain/bin/Debug/net10.0/Fms.Domain.Shared.pdb
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Domain/obj/Debug/net10.0/Fms.Domain.csproj.AssemblyReference.cache
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Domain/obj/Debug/net10.0/Fms.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Domain/obj/Debug/net10.0/Fms.Domain.AssemblyInfoInputs.cache
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Domain/obj/Debug/net10.0/Fms.Domain.AssemblyInfo.cs
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Domain/obj/Debug/net10.0/Fms.Domain.csproj.CoreCompileInputs.cache
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Domain/obj/Debug/net10.0/Fms.Domain.csproj.Up2Date
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Domain/obj/Debug/net10.0/Fms.Domain.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Domain/obj/Debug/net10.0/refint/Fms.Domain.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Domain/obj/Debug/net10.0/Fms.Domain.pdb
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Domain/obj/Debug/net10.0/ref/Fms.Domain.dll

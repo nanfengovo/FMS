@@ -1,0 +1,11 @@
+AGVPosStatus=true
+Battery=true
+BatteryLowThreshold=true
+line_velocity=true
+angle_velocity=true
+position_id=true
+battery_info=true
+battery_soc=true
+battery_voltage=true
+battery_current=true
+battery_temperature=true

@@ -1,0 +1,45 @@
+{
+  "subject": "AMR factory yard (center 3D hall extracted from an industrial dashboard screenshot)",
+  "primaryDomain": "hybrid",
+  "primaryType": "architectural factory hall with repeated process cabinets and AMR chassis",
+  "confidence": 0.82,
+  "suitability": "conditional",
+  "suitabilityReason": "The attached file is a full-frame operations dashboard. The reconstruction target is the isometric factory hall in the center, not the 2D HUD chrome. Dashboard numerals and semiconductor zone names are out of scope.",
+  "layers": {
+    "identification": "Indoor factory hall: epoxy floor, orthogonal aisles, upright equipment cabinets, low rectangular AMRs, cyan path ribbons.",
+    "form": "Rectangular slab footprint. Equipment as repeated upright cuboids in rows. AMRs as low-aspect boxes (~1.05 x 0.62 x 0.32 m visual). Paths as thin extruded strips. Geometric, locally bilateral along aisles. Camera high isometric, elevation ~55-60 deg.",
+    "macro": ["floor slab", "equipment rows", "aisle path network", "AMR fleet", "storage rack bank"],
+    "meso": ["cabinet plinth+body+glass face+roof bar", "AMR chassis+deck+wheels+lamp+optional crate", "path substrate + emissive core"],
+    "micro": ["panel seams", "screen glow", "wheel hubs", "heading chevron", "floor grout grid", "path corner fillets"],
+    "attachments": [
+      "<cabinets, sit-on, floor>",
+      "<path ribbons, flush-with, floor>",
+      "<AMRs, sit-on, floor and constrained-to path ribbons>",
+      "<crates, sit-on, AMR deck>"
+    ],
+    "materials": {
+      "floor": { "albedo": "#121c28", "metalness": 0.04, "roughness": 0.92, "finish": "matte epoxy" },
+      "cabinetHousing": { "albedo": "#c9d4de", "metalness": 0.18, "roughness": 0.42, "finish": "satin painted metal" },
+      "cabinetGlass": { "albedo": "#071820", "metalness": 0.08, "roughness": 0.12, "emissive": "#1478a8", "finish": "dark glass" },
+      "path": { "albedo": "#0a2a33", "emissive": "#2ad4ff", "roughness": 0.3, "finish": "emissive strip" },
+      "amrBody": { "albedo": "#2c343c", "metalness": 0.22, "roughness": 0.5, "finish": "graphite plastic-metal" },
+      "tire": { "albedo": "#1a1a1a", "metalness": 0.0, "roughness": 0.9, "finish": "matte rubber" }
+    },
+    "identityFeatures": [
+      "orthogonal cyan path light ribbons in aisles",
+      "light-gray cabinets with dark emissive glass faces",
+      "small boxy AMRs with status-colored front lamps",
+      "high isometric viewing angle"
+    ],
+    "unknowns": [
+      "cabinet backs and interiors occluded",
+      "exact AMR wheel count (treated as four)",
+      "true metric dimensions not measurable from a dashboard crop",
+      "HUD panels are 2D CSS, not 3D geometry"
+    ]
+  },
+  "qualityContract": {
+    "doneWhen": "Login background shows a live procedural Three.js hall: grouted floor, cabinet rows, AMR bodies with wheels/lamp, and cyan path ribbons. No screenshot poster. No LITH/ETCH labels. No dashboard fake KPIs in the 3D world.",
+    "approximation": "Stylized real-time hall. Single isometric reference cannot reveal hidden sides."
+  }
+}

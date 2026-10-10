@@ -1,0 +1,9 @@
+<Config>
+  <Custom ip="127.0.0.1" port="9999"/>
+  <URL method="task_info" url="/api/v1/xinsong/task_info"/>
+  <URL method="task_arrive_target" url="/api/v1/xinsong/task_arrive_target"/>
+  <URL method="robot_permiss_start_action" url="/api/v1/xinsong/robot_permiss_start_action"/>
+  <URL method="check_cargo_rfid" url="/api/v1/xinsong/check_cargo_rfid"/>
+  <URL method="task_finish" url="/api/v1/xinsong/task_finish"/>
+  <URL method="task_delete" url="/api/v1/xinsong/task_delete_from_web"/>
+</Config>

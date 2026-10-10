@@ -1,0 +1,17 @@
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Simulated/bin/Debug/net10.0/Fms.Adapters.Simulated.deps.json
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Simulated/bin/Debug/net10.0/Fms.Adapters.Simulated.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Simulated/bin/Debug/net10.0/Fms.Adapters.Simulated.pdb
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Simulated/bin/Debug/net10.0/Fms.Domain.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Simulated/bin/Debug/net10.0/Fms.Domain.Shared.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Simulated/bin/Debug/net10.0/Fms.Domain.pdb
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Simulated/bin/Debug/net10.0/Fms.Domain.Shared.pdb
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Simulated/obj/Debug/net10.0/Fms.Adapters.Simulated.csproj.AssemblyReference.cache
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Simulated/obj/Debug/net10.0/Fms.Adapters.Simulated.GeneratedMSBuildEditorConfig.editorconfig
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Simulated/obj/Debug/net10.0/Fms.Adapters.Simulated.AssemblyInfoInputs.cache
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Simulated/obj/Debug/net10.0/Fms.Adapters.Simulated.AssemblyInfo.cs
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Simulated/obj/Debug/net10.0/Fms.Adapters.Simulated.csproj.CoreCompileInputs.cache
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Simulated/obj/Debug/net10.0/Fms.Adap.C5ED26D6.Up2Date
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Simulated/obj/Debug/net10.0/Fms.Adapters.Simulated.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Simulated/obj/Debug/net10.0/refint/Fms.Adapters.Simulated.dll
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Simulated/obj/Debug/net10.0/Fms.Adapters.Simulated.pdb
+/Users/feng/Documents/Code/研发/AGV_AMR_FmsPlatform/backend/src/Fms.Adapters.Simulated/obj/Debug/net10.0/ref/Fms.Adapters.Simulated.dll
